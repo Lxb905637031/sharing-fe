@@ -1,0 +1,31 @@
+{
+  "name": "sharing-fe-spec",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@commitlint/cli": "^19.3.0",
+    "husky": "^9.1.1",
+    "lerna": "^8.1.7",
+    "markdownlint": "^0.28.1",
+    "pnpm": "^8.6.0",
+    "rimraf": "^3.0.2",
+    "ts-node": "^10.9.1",
+    "tslib": "^2.5.2",
+    "typedoc": "^0.24.7",
+    "typescript": "^5.0.4",
+    "vue-template-compiler": "^2.7.14",
+    "vuepress": "^1.9.9",
+    "vuepress-plugin-one-click-copy": "^1.0.2",
+    "vuepress-plugin-zooming": "^1.1.7"
+  },
+  "dependencies": {
+    "conventional-changelog-conventionalcommits": "^8.0.0"
+  }
+}
