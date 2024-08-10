@@ -1,0 +1,12 @@
+{
+  "name": "markdownlint-config-sharing",
+  "version": "1.0.0",
+  "description": "markdown文档规范",
+  "main": "index.js",
+  "keywords": [
+    "markdownt",
+    "lint"
+  ],
+  "author": "",
+  "license": "ISC"
+}
