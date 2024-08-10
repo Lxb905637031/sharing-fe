@@ -1,9 +1,0 @@
-17 error Error: Command failed with exit code 1: git remote update
-17 error fatal: unable to access 'https://github.com/Lxb905637031/sharing-fe-spec.git/': Failed to connect to github.com port 443 after 75001 ms: Couldn't connect to server
-17 error     at makeError (/Users/bin/web/project/sharing-fe-spec/node_modules/.pnpm/execa@5.0.0/node_modules/execa/lib/error.js:59:11)
-17 error     at module.exports.sync (/Users/bin/web/project/sharing-fe-spec/node_modules/.pnpm/execa@5.0.0/node_modules/execa/index.js:186:17)
-17 error     at Object.execSync (/Users/bin/web/project/sharing-fe-spec/node_modules/.pnpm/lerna@8.1.7/node_modules/lerna/dist/index.js:1579:31)
-17 error     at updateRemote (/Users/bin/web/project/sharing-fe-spec/node_modules/.pnpm/lerna@8.1.7/node_modules/lerna/dist/index.js:9176:18)
-17 error     at isBehindUpstream (/Users/bin/web/project/sharing-fe-spec/node_modules/.pnpm/lerna@8.1.7/node_modules/lerna/dist/index.js:9166:3)
-17 error     at VersionCommand.initialize (/Users/bin/web/project/sharing-fe-spec/node_modules/.pnpm/lerna@8.1.7/node_modules/lerna/dist/index.js:9457:57)
-17 error     at VersionCommand.runCommand (/Users/bin/web/project/sharing-fe-spec/node_modules/.pnpm/lerna@8.1.7/node_modules/lerna/dist/index.js:3296:36)
