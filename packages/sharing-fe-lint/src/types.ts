@@ -57,7 +57,7 @@ export interface ScanResult {
   errorCount: number
   warningCount: number
   fixableErrorCount: number
-  fixanleWarningCount: number
+  fixableWarningCount: number
   messages: {
     line: number
     column: number

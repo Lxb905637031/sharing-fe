@@ -172,6 +172,9 @@ importers:
       commitlint-config-encode:
         specifier: ^1.0.8
         version: 1.0.8
+      commitlint-config-sharing:
+        specifier: 1.0.2-alpha.0
+        version: 1.0.2-alpha.0
       cross-spawn:
         specifier: ^7.0.3
         version: 7.0.3
@@ -190,6 +193,9 @@ importers:
       eslint-config-prettier:
         specifier: ^8.3.0
         version: 8.10.0(eslint@8.57.0)
+      eslint-config-sharing:
+        specifier: 1.0.4-alpha.0
+        version: 1.0.4-alpha.0
       eslint-import-resolver-typescript:
         specifier: ^2.5.0
         version: 2.7.1(eslint-plugin-import@2.29.1)(eslint@8.57.0)
@@ -241,6 +247,9 @@ importers:
       markdownlint-config-encode:
         specifier: ^1.0.8
         version: 1.0.8(markdownlint@0.25.1)
+      markdownlint-config-sharing:
+        specifier: ^1.0.1
+        version: 1.0.1(markdownlint@0.25.1)
       markdownlint-rule-helpers:
         specifier: ^0.13.0
         version: 0.13.0
@@ -259,6 +268,9 @@ importers:
       stylelint-config-encode:
         specifier: ^1.0.9
         version: 1.0.9(stylelint-scss@4.7.0(stylelint@14.16.1))(stylelint@14.16.1)
+      stylelint-config-sharing:
+        specifier: 1.0.3-alpha.0
+        version: 1.0.3-alpha.0(stylelint-scss@4.7.0(stylelint@14.16.1))(stylelint@14.16.1)
       stylelint-scss:
         specifier: ^4.1.0
         version: 4.7.0(stylelint@14.16.1)
@@ -3002,6 +3014,9 @@ packages:
   commitlint-config-encode@1.0.8:
     resolution: {integrity: sha512-7Lw5PxnT+hMv3Dt+DiaT6A6Fv0wm7hn8fw2SaFUlD2Y7deSDD8ycXdD1GG5pPgZa662+lpiUu6NxbbMpxDSMpw==}
 
+  commitlint-config-sharing@1.0.2-alpha.0:
+    resolution: {integrity: sha512-sVqBmRfafDGrStAIG1lFaZbF5vIWAsa09weYo8qYbOcJ/sAH4G23q/zl4ft0lrxghZf2H7vVnjlXXjxMSYPHjw==}
+
   common-ancestor-path@1.0.1:
     resolution: {integrity: sha512-L3sHRo1pXXEqX8VU28kfgUY+YGsk09hPqZiZmLacNib6XNTCM8ubYeT7ryXQw8asB1sKgcU5lkB7ONug08aB8w==}
 
@@ -4094,6 +4109,9 @@ packages:
     hasBin: true
     peerDependencies:
       eslint: '>=7.0.0'
+
+  eslint-config-sharing@1.0.4-alpha.0:
+    resolution: {integrity: sha512-AJ6dch3ILw4MjElv9tveZ5rqRP/TCxl/rsizSL3RYkFoKr/5XTAcAnd6W+NAfdiDxBlKwO95i4+P/Aa4jRsq4w==}
 
   eslint-import-resolver-node@0.3.9:
     resolution: {integrity: sha512-WFj2isz22JahUv+B788TlO3N6zL3nNJGU8CcZbPZvVEkBPaJdCV4vy5wyghty5ROFbCRnm132v8BScu5/1BQ8g==}
@@ -6355,6 +6373,11 @@ packages:
     peerDependencies:
       markdownlint: ^0.28.1
 
+  markdownlint-config-sharing@1.0.1:
+    resolution: {integrity: sha512-8LJLbpWP7PTQFvvsk/lWvUxPUa7k71gzH7xpz6rUDm/jxn82Rp0JQ3Kkcx009lzq8A5kWHnULsDiIChNYsopnA==}
+    peerDependencies:
+      markdownlint: ^0.28.1
+
   markdownlint-micromark@0.1.2:
     resolution: {integrity: sha512-jRxlQg8KpOfM2IbCL9RXM8ZiYWz2rv6DlZAnGv8ASJQpUh6byTBnEsbuMZ6T2/uIgntyf7SKg/mEaEBo1164fQ==}
     engines: {node: '>=14.18.0'}
@@ -8340,6 +8363,12 @@ packages:
 
   stylelint-config-encode@1.0.9:
     resolution: {integrity: sha512-tp7+rB9UKKqksIrglKUaA4b93Zh/7QiL64lcthjn7ZYygcZMbdJ+f3mcvuVftAaNjXB9EeeD4HSxCp6lhUZl2g==}
+    peerDependencies:
+      stylelint: '>=8.3.0'
+      stylelint-scss: '>=2.0.0'
+
+  stylelint-config-sharing@1.0.3-alpha.0:
+    resolution: {integrity: sha512-qAX85fGUDwkUjwAqzW5wTzr1OplPQwBgBJHBb48+Mk+U2Ie9HtmWtyjJ2XnxEbBdj1LRrM4I92EHCwElplAmTA==}
     peerDependencies:
       stylelint: '>=8.3.0'
       stylelint-scss: '>=2.0.0'
@@ -13336,6 +13365,10 @@ snapshots:
     dependencies:
       conventional-changelog-conventionalcommits: 4.6.3
 
+  commitlint-config-sharing@1.0.2-alpha.0:
+    dependencies:
+      conventional-changelog-conventionalcommits: 4.6.3
+
   common-ancestor-path@1.0.1: {}
 
   commondir@1.0.1: {}
@@ -14436,6 +14469,8 @@ snapshots:
   eslint-config-prettier@8.10.0(eslint@8.57.0):
     dependencies:
       eslint: 8.57.0
+
+  eslint-config-sharing@1.0.4-alpha.0: {}
 
   eslint-import-resolver-node@0.3.9:
     dependencies:
@@ -17714,6 +17749,10 @@ snapshots:
     dependencies:
       markdownlint: 0.25.1
 
+  markdownlint-config-sharing@1.0.1(markdownlint@0.25.1):
+    dependencies:
+      markdownlint: 0.25.1
+
   markdownlint-micromark@0.1.2: {}
 
   markdownlint-rule-helpers@0.13.0: {}
@@ -20052,6 +20091,11 @@ snapshots:
       postcss-selector-parser: 3.1.2
 
   stylelint-config-encode@1.0.9(stylelint-scss@4.7.0(stylelint@14.16.1))(stylelint@14.16.1):
+    dependencies:
+      stylelint: 14.16.1
+      stylelint-scss: 4.7.0(stylelint@14.16.1)
+
+  stylelint-config-sharing@1.0.3-alpha.0(stylelint-scss@4.7.0(stylelint@14.16.1))(stylelint@14.16.1):
     dependencies:
       stylelint: 14.16.1
       stylelint-scss: 4.7.0(stylelint@14.16.1)

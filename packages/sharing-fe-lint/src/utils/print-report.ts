@@ -44,7 +44,7 @@ export default (results: ScanResult[], fix: boolean) => {
     errorCount += result.errorCount
     warningCount += result.errorCount
     fixableErrorCount += result.fixableErrorCount
-    fixableWarningCount += result.fixanleWarningCount
+    fixableWarningCount += result.fixableWarningCount
 
     output += `${chalk.underline(result.filePath)}\n`
     output += `${table(messages.map(transformMessage), {
