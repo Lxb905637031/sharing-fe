@@ -10,7 +10,7 @@ export interface DoStylelintOptions extends ScanOptions {
   pkg: PKG
 }
 
-export async function dpStylelint(options: DoStylelintOptions) {
+export async function doStylelint(options: DoStylelintOptions) {
   let files: string[]
   if (options.files) {
     files = options.files.filter((name) => STYLELINT_FILE_EXT.includes(extname(name)))
