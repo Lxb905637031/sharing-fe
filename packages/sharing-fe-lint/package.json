@@ -1,6 +1,6 @@
 {
   "name": "sharing-fe-lint",
-  "version": "2.0.0",
+  "version": "1.0.0",
   "bin": "./lib/cli.js",
   "main": "./lib/index.js",
   "scripts": {
