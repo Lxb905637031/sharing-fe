@@ -1,0 +1,51 @@
+---
+title: commitlint-config-sharing
+categories:
+  - 工程规范
+tag:
+  - 工程规范
+author:
+  link: https://github.com/Lxb905637031/sharing-fe-spec
+---
+
+# commitlint-config-sharing
+
+> GIT规范
+
+支持配套的 [commitlint 配置] (https://commitlint.js.org/#/concepts-shareable-config),用于对`git commit message`进行校验
+
+## 安装
+
+使用时，需要安装 [@commitlint/cli](https://www.npmjs.com/package/@commitlint/cli):
+
+```bash
+npm install commitlint-config-sharing @commitlint/cli --save-dev
+```
+
+## 使用
+
+在`commitlint.config.js`中集成本包:
+
+```javascript
+module.exports = {
+  extends: ['commitlint-config-sharing']
+}
+```
+
+## 设置 git hook
+
+可通过 [husky](https://www.mpmjs.com/package/husky)设置在`git commit`时触发`commitlint`.
+
+首先安装 husky:
+
+```bash
+npm install husky --save-dev
+```
+
+然后执行添加`commit-msg`:
+
+```
+npx husky add .husky/commit-msg `npx commitlint --edit $1`
+```
+
+更多信息可参考 [commitlint 文档](https://commitlint.js.org/#/guides-local-setup?id=install-husky)。
